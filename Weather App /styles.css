@@ -1,0 +1,136 @@
+/* Background Image */
+body {
+    background: url('https://source.unsplash.com/1600x900/?nature,sky') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+/* Centering the Weather Container */
+#weather-container {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Headings */
+h2 {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Input Field */
+input {
+    width: 90%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Search Button */
+button {
+    background: #8b48d7;
+    color: rgba(255, 255, 255, 0.695);
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #5d32a8;
+}
+
+/* Temperature Display */
+#temp-div p {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+}
+
+/* Weather Icon */
+#weather-icon {
+    width: 120px;
+    height: 120px;
+    display: none;
+    margin-top: 10px;
+}
+
+/* Weather Info */
+#weather-info {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/* Air Quality Index */
+#air-quality {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+}
+
+/* City Time Display */
+#city-time {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Hourly Forecast */
+#hourly-forecast {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    overflow-x: auto;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+/* Hourly Forecast Item */
+.hourly-item {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    text-align: center;
+    width: 80px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Hourly Weather Icon */
+.hourly-item img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+}
