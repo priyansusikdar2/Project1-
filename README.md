@@ -11,9 +11,6 @@ This is a simple **Weather App** that provides real-time weather updates for any
 - 🍃 **Air Quality Index (AQI) with emoji representation**
 - 🎨 **Beautiful UI with centered alignment and background image**
 
-## 📸 Screenshot
-![Weather App Screenshot](https://source.unsplash.com/1600x900/?nature,sky)
-
 ## 🛠️ Technologies Used
 - **HTML** (for structuring the webpage)
 - **CSS** (for styling and responsiveness)
