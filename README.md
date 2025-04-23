@@ -37,7 +37,7 @@ This app uses the **OpenWeather API** to fetch weather and air quality data.
 ## 📜 How to Use
 1. **Enter a city name** in the input field.
 2. Click the **Search** button.
-3. View **weather details, hourly forecast, air quality index, and city time**.
+3. View **weather details, hourly forecast, air quality index, and city time, Humidity index**.
 
 ## 🎯 To-Do
 - 🌙 Add **dark mode** support
