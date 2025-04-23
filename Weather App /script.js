@@ -45,11 +45,16 @@ function displayWeather(data) {
     const cityName = data.name;
     const temperature = Math.round(data.main.temp);
     const description = data.weather[0].description;
+    const humidity = data.main.humidity; // <-- Added humidity
     const iconCode = data.weather[0].icon;
     const iconUrl = `https://openweathermap.org/img/wn/${iconCode}@4x.png`;
 
     tempDiv.innerHTML = `<p>${temperature}°C</p>`;
-    weatherInfoDiv.innerHTML = `<p>${cityName}</p><p>${description}</p>`;
+    weatherInfoDiv.innerHTML = `
+        <p>${cityName}</p>
+        <p>${description}</p>
+        <p>Humidity: ${humidity}% 💧</p>
+    `;
     weatherIcon.src = iconUrl;
     weatherIcon.alt = description;
     weatherIcon.style.display = 'block';
