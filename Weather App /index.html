@@ -5,23 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
     <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="weather-container">
         <h2>Weather App</h2>
-        <input type="text" id="city" placeholder="Enter city">
+
+        <!-- Search Inputs -->
+        <input type="text" id="city" placeholder="Enter city name">
         <input type="date" id="forecast-date">
-        <button onclick="getWeather()">Search</button>
+        <button onclick="getWeather()">Get Weather</button>
 
-        <img id="weather-icon" alt="Weather Icon">
+        <!-- Weather Icon -->
+        <img id="weather-icon" alt="Weather Icon" />
 
+        <!-- Temperature & Weather Info -->
         <div id="temp-div"></div>
         <div id="weather-info"></div>
+
+        <!-- Air Quality Info -->
         <div id="air-quality"></div>
+
+        <!-- Hourly Forecast -->
         <h3 id="forecast-heading"></h3>
         <div id="hourly-forecast"></div>
     </div>
 
+    <!-- JavaScript -->
     <script src="./script.js"></script>
 </body>
 </html>
