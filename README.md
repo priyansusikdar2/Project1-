@@ -1,7 +1,7 @@
 # 🌦️ Weather App
 
 ## 📌 Overview
-This is a simple **Weather App** that provides real-time weather updates for any city in the world. It displays the **current temperature, weather conditions, hourly forecast, air quality index (AQI), and local time** of the selected city.
+This is a simple **Weather App** that provides real-time weather updates for any city in the world. It displays the **current temperature, weather conditions, hourly forecast, air quality index (AQI), and local time, Humidity** of the selected city.
 
 ## 🚀 Features
 - 🌍 **Search for any city worldwide**
